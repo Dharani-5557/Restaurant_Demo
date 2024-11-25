@@ -9,6 +9,7 @@ function Header() {
                 <p className="para">Menu</p>
                 <p className="para">Contact</p>
             </div>
+            
         </header>
     )
 }

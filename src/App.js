@@ -11,14 +11,11 @@ import Ourmenu from "./components/Ourmenu"
 function App() {
   return (
     <>
-      <Routes>
-        <Route path='/' element={<Header />}></Route>
-        <Route path='/main' element={<Main></Main>}></Route>
-        <Route path='/about' element={<About />}></Route>
-        <Route path='/Ourmenu' element={<Ourmenu />}></Route>
-        <Route path='/contact' element={<Contact />}></Route>
-
-      </Routes>
+      <Header />
+      <Main></Main>
+      <About />
+      <Ourmenu />
+      <Contact />
     </>
   );
 }
