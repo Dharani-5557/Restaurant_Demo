@@ -4,7 +4,6 @@ import './App.css'
 import Main from "./components/Main"
 import About from "./components/About"
 import Contact from "./components/Contact"
-import { Routes, Route } from "react-router-dom"
 import Ourmenu from "./components/Ourmenu"
 
 
